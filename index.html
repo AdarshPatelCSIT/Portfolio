@@ -46,7 +46,22 @@
             <div class="animated-bg"></div>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script>
+const navList = document.querySelector('.navlist');
+const hamburger = document.querySelector('.hamburger');
+
+function toggleMenu() {
+    const isOpen = navList.style.right === '0px';
+    navList.style.right = isOpen ? '-100%' : '0px';
+}
+const navList = document.querySelector('.navlist');
+const hamburger = document.querySelector('.hamburger');
+
+function toggleMenu() {
+    const isOpen = navList.style.right === '0px';
+    navList.style.right = isOpen ? '-100%' : '0px';
+}
+</script>
 </body>
 </html>
 
